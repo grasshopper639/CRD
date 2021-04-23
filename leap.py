@@ -25,7 +25,7 @@ def datastorage():
     if value == "1":
         filename = input("enter the filename : ")
     else:
-        filename = 'database.json' #filename default json file 
+        filename = 'atabase.json' #filename default json file 
     with open(filename,'w') as ds:
         if os.stat(filename).st_size == 0:
             st='{}'
